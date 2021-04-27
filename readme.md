@@ -18,3 +18,16 @@ git remote add origin https://github.com/Shelvadim/graphql-schema.git
 git add -A
 git commit -m "1st commit"
 git push origin master
+
+mutation{
+addTodo(title:"New todo", description:""){
+id
+title
+}
+}
+
+subscription{
+newTodo{
+title
+}
+}
