@@ -1,1 +1,7 @@
 /node_modules
+<<<<<<< HEAD
+=======
+/src/db.ts
+/src/.env
+/build
+>>>>>>> a34cb191ba92fb5e063e35ceb59e764f1457e719
