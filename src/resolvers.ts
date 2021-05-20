@@ -3,6 +3,7 @@ import { v4 } from 'uuid';
 import { GqlContext } from './GqlContext';
 import { todos } from './db';
 
+//interface
 interface User {
   id: string;
   username: string;
